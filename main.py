@@ -4,4 +4,4 @@ mylist = [0,0,0,0,0,0,0,0,0,0,0,0,1]
 
 mylist.append(mylist[-1])
 
-print(mylist)
+print(doublelast(mylist))
