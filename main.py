@@ -1,6 +1,6 @@
 def doubleLast(j):
     j = mylist
-mylist = [1,2,3,4,5]
+mylist = [0,0,0,0,0,0,0,0,0,0,0,0,1]
 
 mylist.append(mylist[-1])
 
