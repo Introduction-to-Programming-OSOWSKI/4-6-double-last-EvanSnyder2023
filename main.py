@@ -1,7 +1,8 @@
 def doubleLast(j):
-    j = mylist
-mylist = [0,0,0,0,0,0,0,0,0,0,0,0,1]
+    myList = j
 
-mylist.append(mylist[-1])
+    myList.append(myList[-1])
 
-print(doublelast(mylist))
+    return myList
+
+print (doubleLast([0,0,0,0,0,0,0,0,0,0,0,0,1]))
